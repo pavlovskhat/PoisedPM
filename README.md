@@ -1,12 +1,18 @@
-# Java Capstone Project 1
-###### Created a project management application.
+# Poised project manager
+###### Application that creates and manages project information.
 
-## Application has the following functions
-1. Can create projects by storing all relevant information associated to the project.
-2. Project information can be modfified by users.
-3. Projects can be finalized once completed.
+## Application functions
+1. Create new projects.
+2. Edit existing project information.
+3. Finalize and invoice projects.
+4. View all ongoing projects.
+5. View all overdue projects.
+6. Find a specific project.
 
-## Special notes
-1. Database functionality to be added on a future task.
-2. Use of OOP to create and modify object persons and projects.
-3. A default project has been entered to the main method as a way to test the program as it is at the moment.
+## Database notes
+Information from new projects is captured
+into an array list utilising serialized object
+orientated programming. Serialized data is
+written to .ser file as an array list that
+can be recalled to output information based
+on in program user selections.
